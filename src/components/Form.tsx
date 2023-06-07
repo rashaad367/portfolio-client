@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import style from "./Form.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import dotenv from "dotenv";
-dotenv.config();
 
 const Form: React.FC = () => {
   const [status, setStatus] = useState("Submit");
