@@ -18,7 +18,7 @@ const Form: React.FC = () => {
     // Fetch data to server page from targeted elements
     // process.env.SERVER holds server url env variable
     let response = await fetch(
-      "https://rashaads-portfolio-server.herokuapp.com/contact",
+      "https://rashaads-portfolio-serv.onrender.com/contact",
       {
         method: "POST",
         headers: {
