@@ -19,13 +19,16 @@ const Form: React.FC = () => {
     };
     // Fetch data to server page from targeted elements
     // process.env.SERVER holds server url env variable
-    let response = await fetch(process.env.SERVER || "", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
+    let response = await fetch(
+      "https://rashaads-portfolio-server.herokuapp.com/contact",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(details),
+      }
+    );
     setStatus("Submit");
     let result = await response.json();
 
