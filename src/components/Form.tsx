@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import style from "./Form.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import dotenv from "dotenv";
+dotenv.config();
 
 const Form: React.FC = () => {
   const [status, setStatus] = useState("Submit");
@@ -16,7 +18,8 @@ const Form: React.FC = () => {
       message: message.value,
     };
     // Fetch data to server page from targeted elements
-    let response = await fetch("http://localhost:5000/contact", {
+    // process.env.SERVER holds server url env variable
+    let response = await fetch(process.env.SERVER || "", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
