@@ -6,7 +6,9 @@ type CardProps = {
   imageUrl: string;
   description: string;
   button1Text: string;
+  button1Url: string;
   button2Text: string;
+  button2Url: string;
 };
 
 const Card: React.FC<CardProps> = ({
@@ -14,8 +16,17 @@ const Card: React.FC<CardProps> = ({
   imageUrl,
   description,
   button1Text,
+  button1Url,
   button2Text,
+  button2Url,
 }) => {
+  const handleButton1Click = () => {
+    window.location.href = button1Url;
+  };
+  const handleButton2Click = () => {
+    window.location.href = button2Url;
+  };
+
   return (
     <div>
       <div className={`${style.pcard} ${style.cardBackground} ${style.lift}`}>
@@ -25,13 +36,13 @@ const Card: React.FC<CardProps> = ({
         <div className="flex">
           <button
             className="mr-4 w-1/2 font-bold font-mono transition transform hover:-translate-y-1"
-            onClick={() => console.log(button1Text)}
+            onClick={handleButton1Click}
           >
             {button1Text}
           </button>
           <button
             className="w-1/2 font-bold font-mono transition transform hover:-translate-y-1"
-            onClick={() => console.log(button2Text)}
+            onClick={handleButton2Click}
           >
             {button2Text}
           </button>

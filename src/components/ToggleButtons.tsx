@@ -88,7 +88,9 @@ const ToggleButtons: React.FC = () => {
                   imageUrl={Technologent}
                   description="User: bobjackson@gmail.com Pwsd: 12345678. An RSVP based meetup website for techies."
                   button1Text="Source"
+                  button1Url="https://github.com/rashaad367/meetup-website"
                   button2Text="Live"
+                  button2Url=""
                 />
               </div>
               <div>
@@ -97,7 +99,9 @@ const ToggleButtons: React.FC = () => {
                   imageUrl={InTheLoop}
                   description="User: bobjackson@gmail.com Pwsd: 12345678. Web app that helps people find nearby events."
                   button1Text="Source"
+                  button1Url="https://github.com/v1-77a1n/4155-teamA1"
                   button2Text="Live"
+                  button2Url=""
                 />
               </div>
               <div>
@@ -106,7 +110,9 @@ const ToggleButtons: React.FC = () => {
                   imageUrl={Portfolio}
                   description="This is my portfolio that you are now witnessing. It was made using popular technologies."
                   button1Text="Source"
+                  button1Url="https://github.com/rashaad367/portfolio-client"
                   button2Text="Live"
+                  button2Url="https://rjsportfolio.vercel.app/"
                 />
               </div>
               <div>
@@ -115,7 +121,9 @@ const ToggleButtons: React.FC = () => {
                   imageUrl={Sudoku}
                   description="A fun, enjoyable client based sudoku game with customization options and difficulties."
                   button1Text="Source"
+                  button1Url="https://github.com/rashaad367/Sudoku9x9"
                   button2Text="Live"
+                  button2Url="https://rashaad367.github.io/Sudoku9x9/"
                 />
               </div>
             </div>
