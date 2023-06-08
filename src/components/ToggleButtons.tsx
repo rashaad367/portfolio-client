@@ -49,7 +49,7 @@ const ToggleButtons: React.FC = () => {
     <div>
       <div className="flex justify-center">
         <h2
-          className="sub-heading ml-6"
+          className="sub-heading ml-6 text-xs leading-6 mb-2"
           data-aos="fade-in"
           data-aos-duration="2000"
         >
@@ -57,7 +57,7 @@ const ToggleButtons: React.FC = () => {
         </h2>
       </div>
       <div
-        className={`magic-mirror ${
+        className={`magic-mirror sm-mirror ${
           !showButton1 || !showButton2 ? null : style.colorThree // Initially red
         } ${!showButton1 ? style.colorOne : style.colorTwo}`} // Either turns green or blue
       >
@@ -80,15 +80,9 @@ const ToggleButtons: React.FC = () => {
         )}
         {!showButton2 && ( // Page content of Abilties
           <>
-            <h1
-              className="sub-heading center"
-              data-aos="fade-in"
-              data-aos-duration="1500"
-            >
-              Projects
-            </h1>
-            <div className="flex flex-col md:flex-row">
-              <div data-aos="fade-in" data-aos-duration="750">
+            <h1 className="sub-heading center">Projects</h1>
+            <div className="flex flex-col md:flex-row pcard-pos">
+              <div>
                 <Cards
                   name="Technologent"
                   imageUrl={Technologent}
@@ -97,7 +91,7 @@ const ToggleButtons: React.FC = () => {
                   button2Text="Live"
                 />
               </div>
-              <div data-aos="fade-in" data-aos-duration="1500">
+              <div>
                 <Cards
                   name="InTheLoop"
                   imageUrl={InTheLoop}
@@ -106,7 +100,7 @@ const ToggleButtons: React.FC = () => {
                   button2Text="Live"
                 />
               </div>
-              <div data-aos="fade-in" data-aos-duration="2250">
+              <div>
                 <Cards
                   name="Portfolio Website"
                   imageUrl={Portfolio}
@@ -115,7 +109,7 @@ const ToggleButtons: React.FC = () => {
                   button2Text="Live"
                 />
               </div>
-              <div data-aos="fade-in" data-aos-duration="3000">
+              <div>
                 <Cards
                   name="Sudoku 9x9"
                   imageUrl={Sudoku}
@@ -139,18 +133,10 @@ const ToggleButtons: React.FC = () => {
         )}
         {!showButton1 && ( // Page content of Projects
           <>
-            <h1
-              className="sub-heading center"
-              data-aos="fade-in"
-              data-aos-duration="2000"
-            >
-              Abilities
-            </h1>
-            <div className="flex flex-col md:flex-row center">
+            <h1 className="sub-heading center">Abilities</h1>
+            <div className="flex flex-col md:flex-row center ability-pos">
               <div
-                className={`${style.skillPanel} mr-4`}
-                data-aos="fade-in"
-                data-aos-duration="1000"
+                className={`${style.skillPanel} mr-4 shadow-md smscreen-margin`}
               >
                 <div>
                   <h1 className="center font-bold">Development Tools</h1>
@@ -178,9 +164,7 @@ const ToggleButtons: React.FC = () => {
                 </div>
               </div>
               <div
-                className={`${style.skillPanel} mr-4`}
-                data-aos="fade-in"
-                data-aos-duration="2000"
+                className={`${style.skillPanel} mr-4 shadow-md smscreen-margin`}
               >
                 <h1 className="center font-bold">Specialization</h1>
                 <p>
@@ -195,11 +179,7 @@ const ToggleButtons: React.FC = () => {
                   UI/UX principles.
                 </p>
               </div>
-              <div
-                className={`${style.skillPanel}`}
-                data-aos="fade-in"
-                data-aos-duration="3000"
-              >
+              <div className={`${style.skillPanel} shadow-md smscreen-margin`}>
                 <h1 className="center font-bold">Other Tools</h1>
                 <h2>General</h2>
                 <div className="grid grid-cols-4 gap-4 mb-6">

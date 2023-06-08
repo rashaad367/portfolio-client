@@ -40,7 +40,7 @@ const Form: React.FC = () => {
   return (
     <div>
       <div
-        className={`container flex flex-col md:flex-row mx-auto ${style.background}`}
+        className={`container flex flex-col md:flex-row mx-auto ${style.background} smform-margin`}
       >
         <ToastContainer position="top-center" />
 

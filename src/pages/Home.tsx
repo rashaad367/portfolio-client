@@ -30,12 +30,16 @@ const Home: React.FC = () => {
           >
             my name is Rashaad Jones.
           </h2>
-          <h2 className="container" data-aos="fade-in" data-aos-duration="1000">
+          <h2
+            className="container p-text"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
             I am a front-end developer who enjoys dabbling with different
             technologies.
           </h2>
-          <div className="container flex">
-            <div className="my-16 w-1/2">
+          <div className="container list-text flex flex-col md:flex-row">
+            <div className="my-16 md:w-1/2">
               <h1
                 className="sub-heading"
                 data-aos="fade-up"
@@ -50,7 +54,7 @@ const Home: React.FC = () => {
                 <li>- Problem Solving</li>
               </ul>
             </div>
-            <div className="my-16 w-1/2">
+            <div className="education my-16 md:w-1/2">
               <h1
                 className="sub-heading"
                 data-aos="fade-down"
@@ -66,7 +70,7 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end container-lg">
+          <div className="checkmo flex justify-end container-lg">
             <h2
               className="heading"
               data-aos="fade-left"

@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
       <div className="flex flex-col">
         <div className="mt-8 mb-16">
           <h1
-            className="heading container-lg"
+            className="heading container-lg contactmh"
             data-aos="fade-right"
             data-aos-duration="3000"
           >

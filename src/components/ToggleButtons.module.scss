@@ -1,21 +1,33 @@
 .btnOne {
-    font-family: 'Arial Black', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    font-weight: bold;
+    border-left:#000 solid;
     width: 125px;
     height: 35px;      
     border-bottom: #000000;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.btnOne:hover {
+    border-left: 1rem;
     transition: 0.3s;
 }
 
 .btnTwo {
-    font-family: 'Arial Black', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;   
+    font-weight: bold;
+    border-left:#000 solid;
     width: 125px;
     height: 35px;
     border-bottom: #000000;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: relative;
+    transition: 0.3s;
+}
+
+.btnTwo:hover {
+    border-left: 1rem;
     transition: 0.3s;
 }
 

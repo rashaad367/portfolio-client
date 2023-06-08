@@ -1,11 +1,6 @@
 import React from "react";
 import style from "./Form.module.css";
-import { Viewer } from "@react-pdf-viewer/core";
-import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
 import { saveAs } from "file-saver";
-
-import "@react-pdf-viewer/core/lib/styles/index.css";
-import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 
 const ResumeViewer: React.FC = () => {
   const pdfUrl =
@@ -17,10 +12,10 @@ const ResumeViewer: React.FC = () => {
 
   return (
     <div className={`container-lg mb-16 ${style.btn}`}>
-      <button className="mb-8 font-bold font-mono" onClick={downloadPdf}>
+      <button className="mb-8 font-bold font-mono sm-pdf" onClick={downloadPdf}>
         Download PDF
       </button>
-      <div className="container shadow-2xl border ">
+      <div className="container shadow-2xl border sm-resume">
         <div className="font-serif my-20 mx-12">
           <p className="center font-bold text-2xl">Rashaad Jones</p>
           <p className="text-sm leading-6">
