@@ -49,9 +49,10 @@ const Home: React.FC = () => {
                 What I like
               </h1>
               <ul data-aos="fade-in" data-aos-duration="3000">
-                <li className="mb-3">- Basketball</li>
-                <li className="mb-3">- Dark Souls 3</li>
-                <li>- Problem Solving</li>
+                <li className="mb-1">- Basketball</li>
+                <li className="mb-1">- Psychology</li>
+                <li className="mb-1">- Video games</li>
+                <li>- Problem solving</li>
               </ul>
             </div>
             <div className="education my-16 md:w-1/2">
@@ -66,7 +67,7 @@ const Home: React.FC = () => {
                 <h2>University of North Carolina at Charlotte</h2>
                 <p>with Bachelor of Science in Computer Science, </p>
                 <p>a concentration in Software Engineering, </p>
-                <p>a minor in Psyhcology, and a GPA of 3.69</p>
+                <p>and a minor in Psyhcology.</p>
               </div>
             </div>
           </div>

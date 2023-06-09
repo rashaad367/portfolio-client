@@ -4,7 +4,7 @@ import { saveAs } from "file-saver";
 
 const ResumeViewer: React.FC = () => {
   const pdfUrl =
-    "https://www.dropbox.com/scl/fi/5ao5vgbzjz4zrpqjyzh7h/resume.pdf?dl=0&rlkey=54g92hfmbnbe0echj6mrfoaqz";
+    "https://www.dropbox.com/scl/fi/fxgk5ku494f6cixoos0zs/resume.pdf?dl=0&rlkey=njjkxnmya2qmtjeywawjsrjql";
 
   const downloadPdf = () => {
     saveAs(pdfUrl, "resume.pdf");
@@ -34,12 +34,11 @@ const ResumeViewer: React.FC = () => {
                 Bachelor of Science in Computer Science | Concentration:
                 Software Engineering | Minor: Psychology
               </p>
-              <p>GPA: 3.69</p>
             </div>
-            <br /> Honors: Chancellor’s List: Fall 2020 and Spring 2022 | Dean’s
-            List: Spring 2020, Spring 2021, and Fall 2021 <br /> Relevant
-            Courses: Web App Design & Development; Network App Development;
-            Database Design & Implementation
+            <br /> Honors: Magna cum laude | Chancellor’s List: Fall 2020 and
+            Spring 2022 | Dean’s List: Spring 2021, and Fall 2021 <br />{" "}
+            Relevant Courses: Web App Design & Development; Network App
+            Development; Database Design & Implementation
           </p>
           <hr />
           <p className="text-sm mb-4 leading-6">
@@ -51,11 +50,35 @@ const ResumeViewer: React.FC = () => {
             CSS
           </p>
           <hr />
+          <strong className="text-lg">RELEVANT PROJECT EXPERIENCE:</strong>
+          <br />
           <p className="text-sm mb-4 leading-6">
-            <strong className="text-lg">RELEVANT PROJECT EXPERIENCE:</strong>
-            <br />
             <div className="flex justify-between -mb-4 font-bold">
-              <p className="">Project 1: RSVP Meetup Website</p>
+              <p className="">Project 1: Rashaad's Portfolio</p>
+              <p> May - June 2023</p>
+            </div>
+            <br />
+            <ul>
+              <li>
+                {" "}
+                + Developed an implemented a dynamic portfolio web application
+                utilizing ReactJS, Node.js, and Express.
+              </li>
+              <li>
+                {" "}
+                + Designed and integrated a fully functional contact form page
+                utilizing Nodemailer for seamless communication.
+              </li>
+              <li>
+                + Utilized TypeScript, Sass, and Tailwind CSS to ensure
+                maintainability, and responsive design resulting in an engaging
+                and visually appealing user interface.
+              </li>
+            </ul>
+          </p>
+          <p className="text-sm mb-4 leading-6">
+            <div className="flex justify-between -mb-4 font-bold">
+              <p className="">Project 2: RSVP Meetup Website</p>
               <p> January - May 2023</p>
             </div>
             <br />
@@ -80,7 +103,7 @@ const ResumeViewer: React.FC = () => {
           </p>
           <p className="text-sm mb-4 leading-6">
             <div className="flex justify-between -mb-4 font-bold">
-              <p className="">Project 2: InTheLoop App</p>
+              <p className="">Project 3: InTheLoop App</p>
               <p> January - April 2023</p>
             </div>
             <br />
@@ -98,29 +121,6 @@ const ResumeViewer: React.FC = () => {
               <li>
                 + Collaborated with a team using the Agile methodology to
                 deliver a high-quality application.
-              </li>
-            </ul>
-          </p>
-          <p className="text-sm mb-4 leading-6">
-            <div className="flex justify-between -mb-4 font-bold">
-              <p className="">Project 3: Sudoku 9x9</p>
-              <p> December 2022 - January 2023</p>
-            </div>
-            <br />
-            <ul>
-              <li>
-                {" "}
-                + Created a sudoku game with randomized number placement using
-                JavaScript, CSS, and HTML.
-              </li>
-              <li>
-                {" "}
-                + Implemented a website cookie system to allow for customization
-                of game settings, such as board color and difficulty.
-              </li>
-              <li>
-                + Enhanced the functionality and user experience of the game by
-                utilizing jQuery and other plugins.
               </li>
             </ul>
           </p>
