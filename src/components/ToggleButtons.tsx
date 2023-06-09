@@ -49,7 +49,7 @@ const ToggleButtons: React.FC = () => {
     <div>
       <div className="flex justify-center">
         <h2
-          className="sub-heading ml-6 text-xs leading-6 my-3 md:mb-6"
+          className="sub-heading ml-7 text-xs leading-6 my-3 md:mb-6"
           data-aos="fade-in"
           data-aos-duration="2000"
         >
