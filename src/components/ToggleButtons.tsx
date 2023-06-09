@@ -90,7 +90,7 @@ const ToggleButtons: React.FC = () => {
                   button1Text="Source"
                   button1Url="https://github.com/rashaad367/meetup-website"
                   button2Text="Live"
-                  button2Url=""
+                  button2Url="https://technologent.cyclic.app/"
                 />
               </div>
               <div>
@@ -101,7 +101,7 @@ const ToggleButtons: React.FC = () => {
                   button1Text="Source"
                   button1Url="https://github.com/v1-77a1n/4155-teamA1"
                   button2Text="Live"
-                  button2Url=""
+                  button2Url="https://intheloop.cyclic.app/"
                 />
               </div>
               <div>
