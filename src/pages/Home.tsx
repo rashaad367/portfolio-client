@@ -24,7 +24,7 @@ const Home: React.FC = () => {
             Welcome,
           </h1>
           <h2
-            className="sub-heading container"
+            className="sm-intname sub-heading container"
             data-aos="fade-in"
             data-aos-duration="2000"
           >

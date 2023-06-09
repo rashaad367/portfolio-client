@@ -246,11 +246,11 @@ $ani-speed: 2s;
 
     .list-text {
         max-width: 85%;
-        margin-top: -1rem;
+        margin-top: -2rem;
     }
 
     .education {
-        margin-top: -.5rem;
+        margin-top: -2rem;
     }
 
     .checkmo {
@@ -292,5 +292,9 @@ $ani-speed: 2s;
 
     .sm-resume {
         width: 93%;
+    }
+
+    .sm-intname {
+        margin-left: 5%;
     }
 }
