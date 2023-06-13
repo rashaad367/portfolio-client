@@ -20,13 +20,6 @@ const Card: React.FC<CardProps> = ({
   button2Text,
   button2Url,
 }) => {
-  const handleButton1Click = () => {
-    window.open(button1Url, "_blank");
-  };
-  const handleButton2Click = () => {
-    window.open(button2Url, "_blank");
-  };
-
   return (
     <div>
       <div className={`${style.pcard} ${style.cardBackground} ${style.lift}`}>
@@ -34,18 +27,16 @@ const Card: React.FC<CardProps> = ({
         <img src={imageUrl} alt="Card" className="mb-4" />
         <p className="mb-4 leading-relaxed">{description}</p>
         <div className="flex">
-          <button
-            className="mr-4 w-1/2 font-bold font-mono transition transform hover:-translate-y-1"
-            onClick={handleButton1Click}
-          >
-            {button1Text}
-          </button>
-          <button
-            className="w-1/2 font-bold font-mono transition transform hover:-translate-y-1"
-            onClick={handleButton2Click}
-          >
-            {button2Text}
-          </button>
+          <a href={button1Url} target="_blank" rel="noopener noreferrer">
+            <button className="mr-4 w-1/2 font-bold font-mono transition transform hover:-translate-y-1">
+              {button1Text}
+            </button>
+          </a>
+          <a href={button2Url} target="_blank" rel="noopener noreferrer">
+            <button className="w-1/2 font-bold font-mono transition transform hover:-translate-y-1">
+              {button2Text}
+            </button>
+          </a>
         </div>
       </div>
     </div>
