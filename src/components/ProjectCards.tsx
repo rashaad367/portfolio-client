@@ -21,10 +21,10 @@ const Card: React.FC<CardProps> = ({
   button2Url,
 }) => {
   const handleButton1Click = () => {
-    window.location.href = button1Url;
+    window.open(button1Url, "_blank");
   };
   const handleButton2Click = () => {
-    window.location.href = button2Url;
+    window.open(button2Url, "_blank");
   };
 
   return (
