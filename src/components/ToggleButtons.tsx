@@ -86,7 +86,7 @@ const ToggleButtons: React.FC = () => {
                 <Cards
                   name="Technologent"
                   imageUrl={Technologent}
-                  description="User: bobjackson@gmail.com Pwsd: 12345678. An RSVP based meetup website for techies."
+                  description="User: bjackson@gmail.com Pwsd: 12345678. An RSVP based meetup website for techies."
                   button1Text="Source"
                   button1Url="https://github.com/rashaad367/meetup-website"
                   button2Text="Live"
@@ -97,7 +97,7 @@ const ToggleButtons: React.FC = () => {
                 <Cards
                   name="InTheLoop"
                   imageUrl={InTheLoop}
-                  description="User: bobjackson@gmail.com Pwsd: 12345678. Web app that helps people find nearby events."
+                  description="User: bjackson@gmail.com Pwsd: 12345678. Web app that helps people find nearby events."
                   button1Text="Source"
                   button1Url="https://github.com/v1-77a1n/4155-teamA1"
                   button2Text="Live"
