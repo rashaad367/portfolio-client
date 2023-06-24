@@ -100,8 +100,6 @@ const ToggleButtons: React.FC = () => {
                   description="User: bjackson@gmail.com Pwsd: 12345678. Web app that helps people find nearby events."
                   button1Text="Source"
                   button1Url="https://github.com/v1-77a1n/4155-teamA1"
-                  button2Text="Live"
-                  button2Url="https://intheloop.cyclic.app/"
                 />
               </div>
               <div>

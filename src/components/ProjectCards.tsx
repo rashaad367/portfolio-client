@@ -5,10 +5,10 @@ type CardProps = {
   name: string;
   imageUrl: string;
   description: string;
-  button1Text: string;
-  button1Url: string;
-  button2Text: string;
-  button2Url: string;
+  button1Text?: string;
+  button1Url?: string;
+  button2Text?: string;
+  button2Url?: string;
 };
 
 const Card: React.FC<CardProps> = ({
