@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Home: React.FC = () => {
   const githubUrl = "https://github.com/rashaad367";
-  const linkedinUrl = "https://www.linkedin.com/in/rashaad-jones-5a59b6220";
+  const linkedinUrl = "https://www.linkedin.com/in/rashaad-jones";
   AOS.init({ once: true });
 
   return (
