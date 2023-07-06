@@ -166,7 +166,7 @@ const ToggleButtons: React.FC = () => {
                 <h2>Database</h2>
                 <div className="grid grid-cols-4 gap-4">
                   <SkillIcons imageUrl={MongodbIcon} description="MongoDB" />
-                  <SkillIcons imageUrl={MysqlIcon} description="MySql" />
+                  <SkillIcons imageUrl={MysqlIcon} description="MySQL" />
                 </div>
               </div>
               <div
@@ -201,7 +201,7 @@ const ToggleButtons: React.FC = () => {
                   <SkillIcons imageUrl={HtmlIcon} description="HTML5" />
                   <SkillIcons
                     imageUrl={JavascriptIcon}
-                    description="JavaSrcipt"
+                    description="JavaScript"
                   />
                   <SkillIcons imageUrl={CssIcon} description="CSS3" />
                   <SkillIcons imageUrl={JavaIcon} description="Java" />
