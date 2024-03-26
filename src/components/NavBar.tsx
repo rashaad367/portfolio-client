@@ -1,7 +1,15 @@
 import React from "react";
-import style from "./NavBar.module.css";
+import style from "./NavBar.module.css
+import { saveAs } from "file-saver";
 
 const NavBar: React.FC = () => {
+  const pdfUrl =
+    "https://www.dropbox.com/scl/fi/gcmkdpz7ymqil8dor9g5p/rashaadsresume.pdf?rlkey=qt4oaudak12k7akqlci809zub&dl=0";
+
+  const downloadPdf = () => {
+    saveAs(pdfUrl, "resume.pdf");
+  };
+  
   return (
     <nav
       className={`${style.backgroundColor} flex items-center justify-between px-4 py-2`}
@@ -19,7 +27,7 @@ const NavBar: React.FC = () => {
           </a>
         </li>
         <li key="resume">
-          <a href="/resume" className="text-white">
+          <a onClick={downloadPdf} className="text-white">
             Resume/CV
           </a>
         </li>
