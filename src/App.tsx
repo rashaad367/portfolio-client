@@ -6,7 +6,6 @@ import githubIcon from "./assets/github.svg";
 import linkedinIcon from "./assets/linkedin.svg";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
 import NoPage from "./pages/NoPage";
 
 const App: React.FC = () => {
@@ -22,7 +21,6 @@ const App: React.FC = () => {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
