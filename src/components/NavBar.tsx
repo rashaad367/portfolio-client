@@ -27,7 +27,7 @@ const NavBar: React.FC = () => {
           </a>
         </li>
         <li key="resume">
-          <a onClick={downloadPdf} className="text-white">
+          <a onClick={downloadPdf} className="text-white cursor-pointer">
             Resume/CV
           </a>
         </li>
