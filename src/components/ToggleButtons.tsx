@@ -89,8 +89,6 @@ const ToggleButtons: React.FC = () => {
                   description="User: bjackson@gmail.com Pwsd: 12345678. An RSVP based meetup website for techies."
                   button1Text="Source"
                   button1Url="https://github.com/rashaad367/meetup-website"
-                  button2Text="Live"
-                  button2Url="https://technologent.cyclic.app/"
                 />
               </div>
               <div>
